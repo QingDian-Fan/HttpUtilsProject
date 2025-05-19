@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "HttpUtilsProject"
-include ':app'
 include ':lib-curl'
-include ':deme'
+include ':demo'
