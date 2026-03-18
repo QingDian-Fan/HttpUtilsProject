@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.btn_post -> {
                 map.clear()
-                map["username"] = "QingDian_Fan"
-                map["password"] = "dian3426"
+                map["username"] = "xxx"
+                map["password"] = "xxx"
                 HttpUtils.getInstance()
                     .asyncPostRequest("https://www.wanandroid.com/user/login", null, map) {
                         Log.e("TAG----->POST", it)
